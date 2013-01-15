@@ -1,0 +1,10 @@
+.VimballRecord
+.netrwhist
+
+tmp/*
+backup/*
+undo/*
+
+*~
+*.swp
+tags
