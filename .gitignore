@@ -1,5 +1,6 @@
 .VimballRecord
 .netrwhist
+.viminfo
 
 tmp/*
 backup/*

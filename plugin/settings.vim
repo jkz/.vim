@@ -178,3 +178,4 @@ autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 " but only show tabs and trailing whitespace
 set listchars=tab:>·,trail:·
 
+set viminfo+=n$HOME/.vim/.viminfo
