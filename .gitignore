@@ -2,10 +2,6 @@
 .netrwhist
 .viminfo
 
-tmp/*
-backup/*
-undo/*
-
 *~
 *.swp
 tags
