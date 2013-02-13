@@ -175,7 +175,10 @@ set scrolloff=5         "Keep at least 5 lines above/below
 " Remove all trailing whitespace
 autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 
+" set viminfo+=n$HOME/.vim/.viminfo
+set viminfo+=n~/.vim/.viminfo
+
+set encoding=utf-8
+
 " but only show tabs and trailing whitespace
 set listchars=tab:>·,trail:·
-
-set viminfo+=n$HOME/.vim/.viminfo

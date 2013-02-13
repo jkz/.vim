@@ -40,6 +40,8 @@ nmap : $
 " Page up and down on Shift + Up/Down
 nnoremap L 7k
 nnoremap K 7j
+vnoremap L 7k
+vnoremap K 7j
 
 " Make Y behave like D and C
 nnoremap Y v$hy
