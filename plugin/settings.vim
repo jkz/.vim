@@ -16,10 +16,6 @@ set nocompatible
 au BufWritePost .vimrc so ~/.vimrc
 au BufWritePost vimrc so ~/.vimrc
 
-" Pathogen allows plugins to be installed as bundles, like repositories,
-" in 'bundle/'.
-call pathogen#infect()
-
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 

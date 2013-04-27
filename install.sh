@@ -1,4 +1,6 @@
-BASEDIR=$(dirname $0)
+VIMDIR=$( cd $(dirname $0); pwd)
 
-ln -s $BASEDIR/vimrc ~/.vimrc
+echo $VIMDIR
+
+ln -si $VIMDIR/vimrc ~/.vimrc
 

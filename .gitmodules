@@ -1,6 +1,9 @@
-[submodule "bundle/syntastic"]
+[submodule "syntastic"]
     path = bundle/syntastic
     url = https://github.com/scrooloose/syntastic.git
-[submodule "bundle/supertab"]
+[submodule "supertab"]
     path = bundle/supertab
     url = git://github.com/ervandew/supertab.git
+[submodule "vim-scriptease"]
+    path = bundle/vim-scriptease
+    url = https://github.com/tpope/vim-scriptease.git
