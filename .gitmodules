@@ -1,3 +1,7 @@
+[submodule "bundle/editorconfig-vim"]
+    path = bundle/editorconfig-vim
+    url = https://github.com/editorconfig/editorconfig-vim.git
+    ignore = dirty
 [submodule "bundle/syntastic"]
     path = bundle/syntastic
     url = https://github.com/scrooloose/syntastic.git
@@ -22,4 +26,3 @@
     path = bundle/vim-coffee-script
     url = https://github.com/kchmck/vim-coffee-script.git
     ignore = dirty
-
