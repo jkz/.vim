@@ -157,3 +157,6 @@ endfunction
 nmap <silent> <leader>mw :call MarkWindowSwap()<CR>
 nmap <silent> <leader>pw :call DoWindowSwap()<CR>
 
+" From frontpage of
+" http://coderwall.com
+cmap w!! %!sudo tee > /dev/null %
