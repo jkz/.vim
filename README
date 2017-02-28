@@ -1,3 +1,5 @@
-Hai, dis is mai vimrc :>
+Hi, this is my vimrc.
+
+To install, run `install.sh`.
 
 TODO remove all absolute paths from plugin/settings.vim
